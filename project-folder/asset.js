@@ -1,3 +1,6 @@
+// Task 1
+// Create the Asset Module
+
 // const Array of assets with properties of id, name, type, price, and quantity
 // String properties: name, and type
 // Number properties: id, price, and quantity
