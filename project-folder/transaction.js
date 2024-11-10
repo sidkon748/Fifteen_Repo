@@ -4,9 +4,6 @@
 // Import necessary functions from asset.js
 import { getAssetById } from './asset.js';
 
-// Import the assets array and getAssetById function from asset.js
-import { assets, getAssetById } from './asset.js';
-
 class Transaction {
   constructor(assetId, type, quantity) {
     this.assetId = assetId;

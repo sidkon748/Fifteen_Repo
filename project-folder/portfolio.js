@@ -2,7 +2,7 @@
 // Create the Portfolio Module
 
 // Import the assets array from the asset.js file
-import {assets} from './asset.js';
+import { assets } from './asset.js';
 
 // Function for summing up total portfolio value of all assets
 export function calculatePortfolioValue() {
