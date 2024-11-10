@@ -26,6 +26,6 @@ export function getPortfolioAllocation() {
             ID: asset.id,
             Name: asset.name,
             Value: assetValue,
-            Allocation Percentage: allocationPercentage.toFixed(2) + '%',
+            AllocationPercentage: allocationPercentage.toFixed(2) + '%',
         };});
 }
