@@ -19,5 +19,5 @@ export const assets = [
   
 // Export function for assets array by ID property to other files
 export function getAssetById(id) {
-    return assetList.find(asset => asset.id === id);
+  return assets.find(asset => asset.id === id);  
 }

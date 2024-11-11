@@ -15,7 +15,7 @@ export function calculatePortfolioValue() {
 // Function for finding the portfolio's percentage allocation for each asset 
 export function getPortfolioAllocation() {
     const totalAssetsValue = calculatePortfolioValue(); // Gets the total Value
-    return assetsList.map(asset => {
+    return assets.map(asset => {
         // Calulates the value of each of the ten assets listed in the portfolio
         const assetValue = asset.price * asset.quantity;
         // Finds percentage by dividing individual asset value by total asset portfolio value
@@ -27,5 +27,6 @@ export function getPortfolioAllocation() {
             Name: asset.name,
             Value: assetValue,
             AllocationPercentage: allocationPercentage.toFixed(2) + '%',
-        };});
+        };
+    });
 }
