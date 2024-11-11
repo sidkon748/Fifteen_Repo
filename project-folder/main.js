@@ -10,7 +10,7 @@ function displayPortfolio() {
     const totalValue = calculatePortfolioValue();  // Get the total portfolio value
     const allocation = getPortfolioAllocation();  // Get the portfolio allocation
 
-    // Display total portfolio value / allocation
+    // Display total portfolio value & allocation
     console.log("Total Portfolio Value: $", totalValue.toFixed(2));
     console.log("Portfolio Allocation:");
 
@@ -21,10 +21,10 @@ function displayPortfolio() {
 
 // Example Transactions
 const transactions = [
-    new Transaction(1, 'buy', 10),  // Buy 10 of "Tech Town" (Assume asset ID 1)
-    new Transaction(3, 'sell', 5),  // Sell 5 of "Atomic" (Assume asset ID 3)
-    new Transaction(7, 'buy', 20),  // Buy 20 of "Unity" (Assume asset ID 7)
-    new Transaction(4, 'sell', 30), // Sell 30 of "Paulus Inc" (Assume asset ID 4)
+    new Transaction(1, 'buy', 10),  // Buy 10 of "Tech Town" 
+    new Transaction(3, 'sell', 5),  // Sell 5 of "Atomic" 
+    new Transaction(7, 'buy', 20),  // Buy 20 of "Unity" 
+    new Transaction(4, 'sell', 30), // Sell 30 of "Paulus Inc" 
 ];
 
 // Display initial portfolio
